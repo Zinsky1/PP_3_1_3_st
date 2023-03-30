@@ -5,8 +5,10 @@
     <title>User page</title>
 </head>
 <body>
-Hey, simp
+<p th:text="${user.username}">un</p>
+<p th:text="${user.getEmail()}">un</p>
 <br />
 <a href="/fel/logout">logout</a>
+
 </body>
 </html>
